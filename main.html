@@ -11,8 +11,11 @@
         <section>
             <h1>QR-Generator</h1>
             <p>Enter your text or url</p>
-            <input placeholder="Enter text or url">
-
+            <input type="text" placeholder="Enter text or url" id="text">
+            <button onclick="generateQRCode()"> Create QR </button>
+            <div id="qr">
+                <img src="" alt="Your QR will appear here" id="qrImage">
+            </div>
         </section>
     </main>
     <script src="script.js"></script>
