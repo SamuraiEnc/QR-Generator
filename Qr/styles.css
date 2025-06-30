@@ -4,6 +4,7 @@ body{
     padding: 50px;
 }
 
+
 section{
     text-align: center;
     background-color: rgb(179, 204, 202);
@@ -50,4 +51,5 @@ button:hover{
     display: none;
     max-width: 100%;
     height: auto;
+     margin: 0 auto;
 }
